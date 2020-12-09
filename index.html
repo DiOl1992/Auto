@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="#">
+            <img src="images/logo.png" alt="logo">
+          </a>
+        </div>
+
+        <div class="header__contacts">
+          <a class="header__contacts-mail" href="mailto:info@autofilter.com">info@autofilter.com</a>
+          <a class="header__contacts-phone" href="tel:0964040404">096 404 0404</a>
+          <a class="header__contacts-phone" href="tel:0674040404">067 404 0404</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="intro" style="background-image: url(images/intro__background.jpg)">
+    <div class=" container">
+      <div class="intro__inner">
+        <div class="intro__information">
+          <div class="intro__title">
+            <span>Безошибочный</span>
+            подбор фильтров по марке авто
+          </div>
+          <img class="intro__img" src="images/intro-img.png" alt="intro__img">
+          <div class="intro__text">
+            <ul>
+              <li>3 варианта на любой бюджет!</li>
+              <li>Всего за 15 минут!</li>
+              <li>С консультацией сервис-инженера!</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <form class="intro__form" method="POST">
+          <div class="intro__form-inner">
+            <div class="intro__form-title">Подобрать фильтр</div>
+            <!-- <div class="form__line">
+              <div class="file">
+                <label for="file__input" class="file__input-label">
+                  <img src="images/icons/camera.png" alt="">
+                  <span class="file__input-name">Фото фильтра</span>
+                  <img class="file__button" src="images/icons/file__button.svg.png" alt="file__button">
+                </label>
+                <input name="file" class="file__input" id="file__input" type="file" accept=".jpg, .png, .gif, .jpeg">
+
+              </div>
+            </div> -->
+            <div class="form__line">
+              <img class="gears" src="images/icons/gears.png" alt="">
+              <input name="Код фильтра" class="input__code" type="text" placeholder="Код фильтра" required>
+            </div>
+            <div class="form__line">
+              <img class="user" src="images/icons/user.png" alt="">
+              <input name="Имя" class="form__name" type="text" placeholder="Ваше имя" required>
+            </div>
+            <div class="form__line">
+              <img class="call" src="images/icons/call-answer.png" alt="">
+              <input name="Телефон" class="form__phone" type="tel" placeholder="Телефон для связи" required>
+            </div>
+            <button class="form__button" type="submit">Отправить</button>
+          </div>
+        </form>
+
+      </div>
+      <button class="inrto__btn-down" data-scroll="#documentation">
+        <img class="down__btn-img" src="images/icons/arrow__down.png" alt="btn-down">
+      </button>
+    </div>
+
+  </div>
+
+  <div class="documentation" id="documentation" style="background-image: url(images/doc-backgrImage.png)">
+    <div class="container">
+      <div class="documentation__info">
+        <div class="info__title">
+          нам доверяют тысячи украинскиих предприятий
+        </div>
+        <div class="info__text">90% в наличии на складе</div>
+      </div>
+    </div>
+    <div class="documentation-slider">
+      <div class="doc__slider-group">
+        <a class="doc__slider-item" data-fancybox="gallery" href="images/document1.jpg">
+          <img class="doc__slider-img" src="images/doc1-min.jpg" alt="">
+        </a>
+      </div>
+
+
+      <div class="doc__slider-group">
+        <a class="doc__slider-item" data-fancybox="gallery" href="images/document1.jpg">
+          <img class="doc__slider-img" src="images/doc1-min.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="doc__slider-group">
+        <a class="doc__slider-item" data-fancybox="gallery" href="images/document1.jpg">
+          <img class="doc__slider-img" src="images/doc1-min.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="doc__slider-group">
+        <a class="doc__slider-item" data-fancybox="gallery" href="images/document1.jpg">
+          <img class="doc__slider-img" src="images/doc1-min.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="doc__slider-group">
+        <a class="doc__slider-item" data-fancybox="gallery" href="images/document1.jpg">
+          <img class="doc__slider-img" src="images/doc1-min.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="doc__slider-group">
+        <a class="doc__slider-item" data-fancybox="gallery" href="images/document1.jpg">
+          <img class="doc__slider-img" src="images/doc1-min.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
